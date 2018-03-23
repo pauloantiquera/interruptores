@@ -10,7 +10,7 @@ class InterruptoresTestCase(unittest.TestCase):
 
 		self.assertFalse(comoEstaALampada)
 	
-	def test_a_lampada_deve_estar_acesa_se_interruptor_da_entrada_da_casa_estiver_acionado(self):
+	def test_a_lampada_deve_estar_acesa_se_o_interruptor_da_entrada_da_casa_estiver_acionado(self):
 		interruptorDaEntradaDaCasa = True
 		interruptorProximoDoQuarto = False
 
