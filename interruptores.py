@@ -1,5 +1,5 @@
 def aLampadaEstaAcesa(interruptorDaEntradaDaCasa, interruptorProximoDoQuarto):
-	if (interruptorDaEntradaDaCasa):
+	if (interruptorDaEntradaDaCasa and not interruptorProximoDoQuarto):
 		return True
 
 	return False
